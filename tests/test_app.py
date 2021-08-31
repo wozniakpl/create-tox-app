@@ -31,5 +31,5 @@ def test_initializing_repo_by_name():
         assert os.path.isfile(os.path.join(tests_dir, "test_app.py"))
 
         assert os.path.isfile(os.path.join(project_dir, "tox.ini"))
-
         assert os.path.isfile(os.path.join(project_dir, ".gitignore"))
+        assert os.path.isfile(os.path.join(project_dir, ".pylintrc"))

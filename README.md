@@ -5,8 +5,10 @@ A small script to setup a tox environment with `setup.py`, formatting, linting a
 It does this:
 ```
 $ create-tox-app my_app_name
-$ tree my_app_name/
+$ tree -a my_app_name/
 my_app_name/
+├── .gitignore
+├── .pylintrc
 ├── README.md
 ├── my_app_name
 │   ├── __init__.py
