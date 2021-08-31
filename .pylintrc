@@ -1,0 +1,6 @@
+[MASTER]
+disable=
+    missing-class-docstring,
+    missing-function-docstring,
+    missing-module-docstring,
+    broad-except,
