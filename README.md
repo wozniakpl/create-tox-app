@@ -1,6 +1,6 @@
 # create-tox-app
 
-A small script to setup a tox environment with `setup.py`, formatting, linting and tests.
+A small script to set up a tox environment with `setup.py`, formatting, linting and tests.
 
 It does this:
 ```
