@@ -57,6 +57,12 @@ deps =
 commands =
     pylint {appname} tests setup.py
     flake8 {appname} tests setup.py
+
+[testenv:format]
+deps =
+    black
+commands =
+    black {appname} tests setup.py
 """
 
 
