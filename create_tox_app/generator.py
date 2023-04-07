@@ -1,13 +1,14 @@
 import os
+
 from create_tox_app.templates import (
-    t_main,
-    t_setup_py,
-    t_tox_ini,
-    t_gitignore,
-    t_test,
     t_exit_codes,
+    t_gitignore,
+    t_main,
     t_pylintrc,
     t_readme,
+    t_setup_py,
+    t_test,
+    t_tox_ini,
 )
 
 

@@ -1,8 +1,9 @@
-import sys
 import argparse
 import os
+import sys
+
+from create_tox_app.exit_codes import FAIL, SUCCESS
 from create_tox_app.generator import Generator
-from create_tox_app.exit_codes import SUCCESS, FAIL
 
 
 def create_argparser():

@@ -1,7 +1,7 @@
+import os
+import subprocess
 import sys
 import tempfile
-import subprocess
-import os
 
 
 def run(directory):

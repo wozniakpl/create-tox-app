@@ -24,8 +24,11 @@ It does this:
    └── tox.ini
 
 You're ready to call ``tox`` to run tests, format check and linting.
-``tox -e format`` would reformat your code. # Installation
+``tox -e format`` would reformat your code.
+
+Installation
+------------
 
 ::
 
-   pip3 install git+https://github.com/wozniakpl/create-tox-app.git
+   pip3 install create-tox-app
