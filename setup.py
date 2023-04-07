@@ -13,4 +13,11 @@ setup(
     packages=find_packages(),
     install_requires=[],
     entry_points={"console_scripts": ["create-tox-app = create_tox_app.__main__:main"]},
+    classifiers=[
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Natural Language :: English",
+        "Programming Language :: Python",
+    ],
 )
